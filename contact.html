@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+
+  <body>
+    <fieldset>
+      <legend> Personal Information</legend>
+      <form action="mailto:yuvrajacharya017@gmail.com" method="post" enctype="text/plain">
+        <p>
+          <label for="username">Username:</label>
+          <input type="text" name="q" id="username" placeholder="username">
+        </p>
+        <p>
+          <label for="password">Pasword:</label>
+          <input type="text" id="password" placeholder="password">
+        </p>
+        <p>
+          <label for="email">Email:</label>
+          <input type="email" placeholder="email address" id="email" name="email">
+        </p>
+        <h3>Select your Gender</h3>
+        <p>
+          <label for="male">Male:</label>
+          <input type="radio" value="male" name="gender" id="male">
+          <label for="female">Female:</label>
+          <input type="radio" value="female" name="gender" id="female">
+        </p>
+        <h3>Select your hobbies</h3>
+        <p>
+          <label for="dance"> Dancing:</label>
+          <input type="checkbox" value="dance" name="hobbies" id="dance">
+          <label for="singing"> Singing:</label>
+          <input type="checkbox" value="singing" name="hobbies" id="singing">
+        </p>
+        <h3>Select your country</h3>
+        <p>
+          <select name="country" id="country">
+            <option value="nepal"> Nepal</option>
+            <option value="india"> india</option>
+          </select>
+        </p>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+    </fieldset>
+
+  </body>
+
+</html>
